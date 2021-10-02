@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Question">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="#fff"
+                android:layout_gravity="center"
+                android:hint="Essentials"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cd1"
+                android:layout_marginTop="10dp"
+                app:cardElevation="7dp"
+                app:contentPadding="7dp"
+                app:cardMaxElevation="7dp"
+                app:cardBackgroundColor="#fff">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv1"
+                        android:hint="Posted On"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cd2"
+                android:layout_marginTop="10dp"
+                app:cardElevation="7dp"
+                app:contentPadding="7dp"
+                app:cardMaxElevation="7dp"
+                app:cardBackgroundColor="#fff">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv2"
+                        android:hint="Venue"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cd3"
+                android:layout_marginTop="10dp"
+                app:cardElevation="7dp"
+                app:contentPadding="7dp"
+                app:cardMaxElevation="7dp"
+                app:cardBackgroundColor="#fff">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv3"
+                        android:hint="Pitch Report"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cd4"
+                android:layout_marginTop="10dp"
+                app:cardElevation="7dp"
+                app:contentPadding="7dp"
+                app:cardMaxElevation="7dp"
+                app:cardBackgroundColor="#fff">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv4"
+                        android:hint="Favourites"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#fff"
+                    android:layout_gravity="center"
+                    android:hint="Our Dream Team"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#000">
+
+                </TextView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cd5"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="7dp"
+                    app:contentPadding="7dp"
+                    app:cardMaxElevation="7dp"
+                    app:cardBackgroundColor="#fff">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv5"
+                            android:hint="Dream Team"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textStyle="bold">
+
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#fff"
+                    android:layout_gravity="center"
+                    android:hint="Note"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#000">
+
+                </TextView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cd6"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="7dp"
+                    app:contentPadding="7dp"
+                    app:cardMaxElevation="7dp"
+                    app:cardBackgroundColor="#fff">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv6"
+                            android:hint="Note"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:textStyle="bold">
+
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5991436099172180/2532463956">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

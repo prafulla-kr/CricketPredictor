@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "713985591817",
+    "project_id": "cricket-xi-predictor",
+    "storage_bucket": "cricket-xi-predictor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713985591817:android:b6bee047dddf57d492c6d8",
+        "android_client_info": {
+          "package_name": "com.nostra.cricket11predictor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713985591817-526rlsi3lg3758e0ig58rt3ohb05bg32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv7Oj23_YevLppfuU81kY38gYss0klS6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713985591817-526rlsi3lg3758e0ig58rt3ohb05bg32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
